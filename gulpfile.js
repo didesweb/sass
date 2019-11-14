@@ -11,7 +11,7 @@ gulp.task('browser-sync', function() {
     'assets/styles/**/*'
     ];
     browserSync.init(files, {
-    proxy: "localhost/testing-gulpc/",
+    proxy: "localhost/sass/",
     notify: false
     });
 });
